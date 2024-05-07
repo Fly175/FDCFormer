@@ -1,0 +1,29 @@
+# Training configuration
+GPU: [0]
+
+VERBOSE: False
+
+MODEL:
+  MODE: 'FDCFormer_LOL'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 8
+  EPOCHS: 4000
+  # EPOCH_DECAY: [10]
+  LR_INITIAL: 1e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 128
+  VAL_PS: 128
+  TRAIN_DIR: './datasets/LOLv2/Synthetic/Train'       # path to training data
+  VAL_DIR: './datasets/LOLv2/Synthetic/Test' # path to validation data
+  SAVE_DIR: './lolv2/Synthetic/checkpoints_test_ft'           # path to save models and images
+#  mixing_augs:
+#    mixup: true
+#    mixup_beta: 1.2
+#    use_identity: true
