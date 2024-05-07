@@ -63,7 +63,8 @@ python train_lolv1.py -yml_path your_config_path
 <img src = "./figures/LOLv2-real.jpg" width="800">  
 
 - Evaluation on LSRW-huawei dataset  
-<img src = "./figures/LSRW-huawei.jpg" width="800">  
+<img src = "./figures/LSRW-huawei.jpg" width="800">
+
 ## Contact
 
 If you have any questions, please contact laifangwei2000@163.com
