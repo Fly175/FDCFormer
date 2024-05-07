@@ -74,5 +74,4 @@ If you have any questions, please contact laifangwei2000@163.com
 This implementation is based on  inspired by:
 - LLFormer: https://github.com/TaoWangzj/LLFormer
 ---
-### Visual comparison results
 
