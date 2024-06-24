@@ -1,5 +1,5 @@
 
-# FDCFormer: Frequency-guided Dual Collapse Transformer for Low-Light Image Enhancement
+# Frequency-guided Dual Collapse Transformer for Low-Light Image Enhancement
 
 ## Datasets
 You can use the following links to download the datasets:
@@ -66,6 +66,7 @@ python train_lolv1.py -yml_path your_config_path
 <img src = "./figures/LSRW-huawei.jpg" width="800">
 
 ## Contact
+The training code and pre-trained weights will be updated as soon as the paper is accepted.
 
 If you have any questions, please contact laifangwei2000@163.com
 
